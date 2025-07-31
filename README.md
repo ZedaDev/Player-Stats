@@ -1,74 +1,76 @@
-Player-Stats
-Sistema en C para gestionar estadísticas de jugadores de fútbol mediante estructuras compuestas, memoria dinámica y listas enlazadas, con persistencia en archivos binarios.
+# Player-Stats
 
-Descripción
-Este proyecto permite almacenar y manipular datos detallados de jugadores y sus estadísticas de partidos. Usa un array dinámico de jugadores, donde cada jugador contiene una lista enlazada con sus estadísticas. El sistema facilita agregar, modificar, consultar y guardar información, asegurando la persistencia entre ejecuciones mediante archivos binarios.
+Sistema de gestión de jugadores de fútbol y sus estadísticas detalladas, desarrollado en lenguaje C con enfoque en manejo de memoria dinámica, estructuras compuestas, listas enlazadas y archivos binarios para persistencia.
 
-Características principales
-Estructuras compuestas y memoria dinámica para manejo eficiente de datos variables.
+---
 
-Lista enlazada para almacenar múltiples estadísticas por jugador.
+## Descripción
 
-Interfaz de consola con menús para interacción con el usuario.
+Player-Stats es una aplicación en C que permite gestionar jugadores de fútbol, almacenar sus datos personales y registrar estadísticas detalladas de partidos. Utiliza memoria dinámica y estructuras avanzadas como listas enlazadas para manejar datos variables, con persistencia en archivos binarios para conservar la información entre ejecuciones.
 
-Persistencia de datos mediante archivos binarios para garantizar que la información se conserve entre sesiones.
+.Se pueden visualizar las estadisticas generales desde su debut, por equipo, por equipo y competicion, por competicion, por año, por goles(hat-trick, penal, tiro libre), cada estadistica contiene el mismo recuadro con todas las stats de cada estadistica segun que opcion haya seleccionado.
+---
 
-Estructura del proyecto
-plaintext
+## Características
+
+- Carga dinámica de jugadores y sus estadísticas desde archivos binarios.  
+- Menú interactivo para agregar, consultar y modificar datos.  
+- Manejo de listas enlazadas para almacenar múltiples estadísticas por jugador.  
+- Validación y almacenamiento eficiente en memoria.  
+- Persistencia segura mediante archivos binarios.
+---
+
+## Estructura del Proyecto
+
+Player-Stats/
+│
+├── src/ # Código fuente (.c)
+├── include/ # Archivos de cabecera (.h)
+├── bin/ # Ejecutables (ignorado por Git)
+├── obj/ # Archivos objeto (ignorado por Git)
+├── .gitignore # Archivos y carpetas ignorados por Git
+├── LICENSE # Licencia del proyecto
+└── README.md # Documentación principal
+
+yaml
 Copiar
 Editar
-/PlayerStats-C
-├── src/                 # Código fuente (.c)
-├── include/             # Archivos de cabecera (.h)
-├── bin/                 # Ejecutables y binarios generados (no versionado)
-├── obj/                 # Archivos objeto (no versionado)
-├── README.md            # Documentación principal
-├── LICENSE              # Licencia del proyecto (MIT)
-└── .gitignore           # Configuración Git para ignorar archivos innecesarios
-Flujo de funcionamiento
-Inicialización (inicProgram())
 
-Carga jugadores guardados en archivos binarios (cantidad_Jugadores_Archivo(), Archivo_A_Jugadores1()).
+---
 
-Carga las estadísticas asociadas a cada jugador (ArchivoEstadisticas_A_Jugadores()).
+## Requisitos Previos
 
-Prepara la estructura de datos en memoria para su uso.
+- GCC o compilador compatible con C.  
+- Terminal o entorno de desarrollo (ej. Code::Blocks).  
+- Git para control de versiones.
 
-Inicia el menú principal (menuPrincipal()).
+---
 
-Menú principal (menuPrincipal())
+## Compilación y Ejecución
 
-Agregar un jugador nuevo (cargarJugador()).
+Desde la raíz del proyecto, compilar con:
 
-Consultar o modificar estadísticas (menu_Estadisticas()).
-
-Guardar datos (cargarArchivoIndex()).
-
-Salir, guardando los cambios automáticamente.
-
-Gestión dinámica de datos
-
-Array dinámico para jugadores con contador de elementos válidos.
-
-Listas enlazadas para manejar estadísticas variables por jugador.
-
-Persistencia
-
-Guardado y carga mediante archivos binarios para evitar pérdida de información.
-
-Requisitos
-Entorno: Windows 
-
-IDE recomendado: Code::Blocks 20.3 o superior.
-
-Compilador: GCC compatible con C99 o superior.
-
-Compilación y ejecución
-Desde consola, en la raíz del proyecto:
+```bash
+gcc src/*.c -I include -o bin/PlayerStats
+Ejecutar con:
 
 bash
 Copiar
 Editar
-gcc src/*.c -I include -o PlayerStats
-./PlayerStats
-O abre el proyecto .cbp en Code::Blocks y compílalo directamente.
+./bin/PlayerStats
+Funciones Principales
+inicProgram(): Inicializa la aplicación, carga datos y prepara estructuras.
+
+cantidad_Jugadores_Archivo(): Cuenta jugadores en archivo binario.
+
+Archivo_A_Jugadores1(): Carga jugadores en array dinámico.
+
+ArchivoEstadisticas_A_Jugadores(): Carga listas enlazadas con estadísticas.
+
+menuPrincipal(): Menú interactivo para operaciones del usuario.
+
+cargarJugador(): Agrega un jugador nuevo.
+
+menu_Estadisticas(): Consulta y modifica estadísticas.
+
+cargarArchivoIndex(): Guarda datos actualizados en archivos binarios.
