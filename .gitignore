@@ -1,55 +1,45 @@
-# Prerequisites
-*.d
+# Build folders
+/bin/
+/obj/
+
+# Code::Blocks project files
+*.depend
+*.layout
+*.cbp.save
+*.layout.save
 
 # Object files
 *.o
-*.ko
 *.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
+# Executables and output files
+*.exe
+*.out
 
 # Libraries
 *.lib
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.dll
 
 # Debug files
 *.dSYM/
-*.su
-*.idb
 *.pdb
+*.idb
 
-# Kernel Module Compile Results
+# Precompiled headers
+*.gch
+*.pch
+
+# Kernel module compile results
 *.mod*
 *.cmd
-.tmp_versions/
+*.tmp_versions/
 modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
-*.dwo
+# Temporary system files
+*.DS_Store
+*.swp
