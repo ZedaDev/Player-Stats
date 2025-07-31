@@ -1,2 +1,2 @@
 # Player-Stats
-Proyecto en lengua C - IDE : CodeBlocks 20.3 - Memoria dinamica, punteros dobles, recursion, listas enlazadas, filas, estructuras compuestas, archivos.
+Proyecto en lenguaje C - IDE : CodeBlocks 20.3 - Memoria dinamica, punteros dobles, recursion, listas enlazadas, filas, arrays, estructuras compuestas, archivos.
