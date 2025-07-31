@@ -30,50 +30,51 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="include" />
 		</Compiler>
-		<Unit filename="ArchivosCarga.c">
+		<Unit filename="include/ArchivosCarga.h" />
+		<Unit filename="include/CargaDeDatos.h" />
+		<Unit filename="include/FILAS.h" />
+		<Unit filename="include/IngresoDatos.h" />
+		<Unit filename="include/InicProgram.h" />
+		<Unit filename="include/Jugador.h" />
+		<Unit filename="include/ListaSimple.h" />
+		<Unit filename="include/MostrarDatos.h" />
+		<Unit filename="include/menu&amp;Functions.h" />
+		<Unit filename="include/utiles.h" />
+		<Unit filename="src/ArchivosCarga.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ArchivosCarga.h" />
-		<Unit filename="CargaDeDatos.c">
+		<Unit filename="src/CargaDeDatos.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="CargaDeDatos.h" />
-		<Unit filename="FILAS.c">
+		<Unit filename="src/FILAS.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="FILAS.h" />
-		<Unit filename="IngresoDatos.c">
+		<Unit filename="src/IngresoDatos.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="IngresoDatos.h" />
-		<Unit filename="InicProgram.c">
+		<Unit filename="src/InicProgram.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="InicProgram.h" />
-		<Unit filename="Jugador.c">
+		<Unit filename="src/Jugador.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Jugador.h" />
-		<Unit filename="ListaSimple.c">
+		<Unit filename="src/ListaSimple.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ListaSimple.h" />
-		<Unit filename="MostrarDatos.c">
+		<Unit filename="src/MostrarDatos.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="MostrarDatos.h" />
-		<Unit filename="main.c">
+		<Unit filename="src/main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="menu&amp;Functions.c">
+		<Unit filename="src/menu&amp;Functions.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="menu&amp;Functions.h" />
-		<Unit filename="utiles.c">
+		<Unit filename="src/utiles.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="utiles.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

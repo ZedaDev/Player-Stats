@@ -83,3 +83,80 @@
 1752428891 source:c:\users\silvia\documents\c\playerstats\menu&functions.c
 	"menu&Functions.h"
 
+1753718653 source:c:\users\silvia\documents\c\playerstats\src\archivoscarga.c
+	"ArchivosCarga.h"
+
+1752426986 c:\users\silvia\documents\c\playerstats\include\archivoscarga.h
+	"FILAS.h"
+	"utiles.h"
+
+1752173357 c:\users\silvia\documents\c\playerstats\include\filas.h
+	"ListaSimple.h"
+
+1752158268 c:\users\silvia\documents\c\playerstats\include\listasimple.h
+	"utiles.h"
+	"Jugador.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1752428422 c:\users\silvia\documents\c\playerstats\include\utiles.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+
+1752254178 c:\users\silvia\documents\c\playerstats\include\jugador.h
+
+1752428419 source:c:\users\silvia\documents\c\playerstats\src\cargadedatos.c
+	"CargaDeDatos.h"
+
+1752158251 c:\users\silvia\documents\c\playerstats\include\cargadedatos.h
+	"FILAS.h"
+	"IngresoDatos.h"
+	"MostrarDatos.h"
+
+1751295033 c:\users\silvia\documents\c\playerstats\include\ingresodatos.h
+	"ListaSimple.h"
+
+1752428421 c:\users\silvia\documents\c\playerstats\include\mostrardatos.h
+	"ListaSimple.h"
+	"FILAS.h"
+
+1752428417 source:c:\users\silvia\documents\c\playerstats\src\filas.c
+	"FILAS.h"
+
+1753719585 source:c:\users\silvia\documents\c\playerstats\src\ingresodatos.c
+	"IngresoDatos.h"
+
+1752158251 source:c:\users\silvia\documents\c\playerstats\src\inicprogram.c
+	"InicProgram.h"
+
+1752257778 c:\users\silvia\documents\c\playerstats\include\inicprogram.h
+	"CargaDeDatos.h"
+	"ArchivosCarga.h"
+	"menu&Functions.h"
+
+1752254831 c:\users\silvia\documents\c\playerstats\include\menu&functions.h
+	"MostrarDatos.h"
+
+1752428414 source:c:\users\silvia\documents\c\playerstats\src\jugador.c
+	"Jugador.h"
+
+1752158250 source:c:\users\silvia\documents\c\playerstats\src\listasimple.c
+	"ListaSimple.h"
+
+1752428746 source:c:\users\silvia\documents\c\playerstats\src\main.c
+	"InicProgram.h"
+
+1752428891 source:c:\users\silvia\documents\c\playerstats\src\menu&functions.c
+	"menu&Functions.h"
+
+1753720416 source:c:\users\silvia\documents\c\playerstats\src\mostrardatos.c
+	"MostrarDatos.h"
+
+1752428413 source:c:\users\silvia\documents\c\playerstats\src\utiles.c
+	"utiles.h"
+
